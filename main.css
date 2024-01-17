@@ -49,6 +49,9 @@ html {
 .logo {
     font-size: 24px;
 }
+.promo {
+
+}
 
 .main {
     background-image: url(./img/Abstract.svg);
@@ -210,29 +213,38 @@ strong {
     background-color: #b8b8b8;
 }
 
+.requirements {
+    padding-bottom: 70px;
+}
+
 .requirements-title {
     font-weight: bold;
     text-align: center;
     color: #5C62EC;
     font-size: 60px;
-    padding-top: 70px;
+    padding: 70px 0 70px 0 ;
     line-height: 1.3;
 }
 
-.text-requir {
-    list-style: circle;
+#requirments-id {
+    list-style: disc;
 }
-
 .paragraf-requir {
+    margin-top: 145px;
+    position: absolute;
     list-style: circle;
-    font-size: 24px;
+    font-size: 26px;
     color: #171718;
     padding-bottom: 70px;
+}
+.promo {
+margin: 0 0 0 894px ;
 }
 
 
 
 .footer {
+    padding: 70px;
 background-color: #171718;
 }
 
